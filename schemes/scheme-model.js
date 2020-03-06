@@ -10,8 +10,6 @@ module.exports = {
     remove
 }
 
-// helpers
-
 function find() {
     return db('schemes')
 }
@@ -52,5 +50,4 @@ function remove(id) {
         .catch( err => {
             console.log(err);
         })
-    // Why is this good?
 }
